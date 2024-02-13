@@ -1,0 +1,57 @@
+galaxy_instance: http://localhost:9090
+api_key: admin
+install_resolver_dependencies: True
+install_tool_dependencies: False
+tools:
+  - name: hisat2
+    owner: iuc
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+  - name: bedtools
+    owner: iuc
+    tool_panel_section_label: "bedtools"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+  - name: datamash_ops
+    owner: iuc
+    tool_panel_section_label: "textutil"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    revisions:
+      - 562f3c677828
+  - name: deseq2
+    owner: iuc
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    revisions:
+      - 8fe98f7094de
+  - name: rgrnastar
+    owner: iuc
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    revisions:
+      - 980d2a2e1180
+  - name: featurecounts
+    owner: iuc
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    revisions:
+      - 38b6d12edc68
+  - name: htseq_count
+    owner: lparsons
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    revisions:
+      - 916cb26bd9d3
+  - name: edger  
+    owner: iuc
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+  - name: ggplot2_heatmap2  
+    owner: iuc
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
+    revisions:
+      - 566197475670
+  - name: gffread
+    owner: devteam     
+    tool_panel_section_label: "RNASeq"
+    tool_shed_url: https://toolshed.g2.bx.psu.edu
