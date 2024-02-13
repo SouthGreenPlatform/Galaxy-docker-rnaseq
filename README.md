@@ -28,10 +28,12 @@ docker run -p 9090:80 galaxy_unal
 
 The Galaxy instance is then accessible to this URL: http://localhost:9090
 
+
 4- Stop the container
 
 ```
-docker stop
+docker ps -a
+docker stop <container_id>
 ```
 
 
