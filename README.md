@@ -12,6 +12,7 @@ This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachmen
 
 ```
 git clone https://github.com/SouthGreenPlatform/Galaxy-docker-rnaseq.git
+cd Galaxy-docker-rnaseq
 ```
 
 2- Build the docker image from the Dockerfile
