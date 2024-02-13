@@ -11,7 +11,7 @@ This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachmen
 1- Clone this repository
 
 ```
-git clone 
+git clone https://github.com/SouthGreenPlatform/Galaxy-docker-rnaseq.git
 ```
 
 2- Build the docker image from the Dockerfile
@@ -25,6 +25,8 @@ docker build -t galaxy_unal:latest .
 ```
 docker run -p 9090:80 galaxy_unal
 ```
+
+The Galaxy instance is then accessible to this URL: http://localhost:9090
 
 4- Stop the container
 
