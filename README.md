@@ -2,7 +2,8 @@
 
 ## About
 
-Dockerize a Galaxy container for RNA-Seq analysis (in the context of a deployment for the Universidad Nacional de Colombia)
+Dockerize a Galaxy container for RNA-Seq analysis (in the context of a deployment for the Universidad Nacional de Colombia).
+The Galaxy contains tools for metagenomics + tools for RNASeq (HiSat2, RNA STAR, featurecounts, DESeq2, heatmap2...)
 
 This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf)
 
