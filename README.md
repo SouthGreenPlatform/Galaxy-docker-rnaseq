@@ -8,7 +8,7 @@ The Galaxy contains tools for metagenomics + tools for RNASeq (HiSat2, RNA STAR,
 
 This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachments/events/2021-05-gr4-tool-devs/gr4-tool-devs-docker.pdf)
 
-## Deploy the Galaxy docker
+## Run the Galaxy docker container
 
 1- Clone this repository
 
