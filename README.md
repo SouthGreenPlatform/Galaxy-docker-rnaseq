@@ -10,6 +10,12 @@ This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachmen
 
 ## Run the Galaxy docker container
 
+```
+sudo docker run -p 8050:80 dereeper/galaxy_unal:latest
+```
+
+## Test it locally and modify the container with additional flavors
+
 1- Clone this repository
 
 ```
@@ -20,13 +26,13 @@ cd Galaxy-docker-rnaseq
 2- Build the docker image from the Dockerfile
 
 ```
-docker build -t galaxy_unal:latest .
+sudo docker build -t galaxy_unal:latest .
 ```
 
 3- Run the container
 
 ```
-docker run -p 9090:80 galaxy_unal
+sudo docker run -p 9090:80 galaxy_unal
 ```
 
 The Galaxy instance is then accessible to this URL: http://localhost:9090
@@ -35,8 +41,8 @@ The Galaxy instance is then accessible to this URL: http://localhost:9090
 4- Stop the container
 
 ```
-docker ps -a
-docker stop <container_id>
+sudo docker ps -a
+sudo docker stop <container_id>
 ```
 
 
