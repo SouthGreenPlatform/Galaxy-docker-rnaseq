@@ -23,28 +23,46 @@ git clone https://github.com/SouthGreenPlatform/Galaxy-docker-rnaseq.git
 cd Galaxy-docker-rnaseq
 ```
 
-2- Build the docker image from the Dockerfile
+2- Modify the list of tools and adapt to your need
+
+Edit the  tools_rnaseq.yml file and the homepage welcome.html.
+
+3- Build the docker image from the Dockerfile
 
 ```
 sudo docker build -t galaxy_unal:latest .
 ```
 
-3- Run the container
+4- Run the container
 
 ```
-sudo docker run -p 9090:80 galaxy_unal
+sudo docker run -p 8080:80 galaxy_unal
 ```
 
-The Galaxy instance is then accessible to this URL: http://localhost:9090
+The Galaxy instance is then accessible to this URL: http://localhost:8080
 
 
-4- Stop the container
+5- Once you are satisfied, stop the local container and publish it into Docker Hub
 
 ```
 sudo docker ps -a
 sudo docker stop <container_id>
 ```
 
+Create a new repository in Docker Hub with a new name <repository_name>.
+
+Build the image and push it into Docker Hub
+
+```
+sudo docker build -t <login>/<repository_name>:latest .
+sudo docker push <login>/<repository_name>:latest
+```
+
+6- Test the published Docker image
+
+```
+sudo docker run -p 8050:80 <login>/<repository_name>:latest
+```
 
 ## Authors
 
