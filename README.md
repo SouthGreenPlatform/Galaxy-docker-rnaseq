@@ -11,7 +11,7 @@ This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachmen
 ## Run the Galaxy docker container
 
 ```
-sudo docker run -p 8050:80 dereeper/galaxy_unal:latest
+sudo docker run -p 8080:80 dereeper/galaxy_unal:latest
 ```
 
 ## Test it locally and modify the container with additional flavors
@@ -61,7 +61,7 @@ sudo docker push <login>/<repository_name>:latest
 6- Test the published Docker image
 
 ```
-sudo docker run -p 8050:80 <login>/<repository_name>:latest
+sudo docker run -p 8080:80 <login>/<repository_name>:latest
 ```
 
 ## Authors
