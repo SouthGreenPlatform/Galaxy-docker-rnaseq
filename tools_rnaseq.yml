@@ -1,4 +1,4 @@
-galaxy_instance: http://localhost:8050
+galaxy_instance: http://localhost:8080
 api_key: admin
 install_resolver_dependencies: True
 install_tool_dependencies: False
