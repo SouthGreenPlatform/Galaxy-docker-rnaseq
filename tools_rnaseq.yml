@@ -1,4 +1,4 @@
-galaxy_instance: http://localhost:9090
+galaxy_instance: http://localhost:8050
 api_key: admin
 install_resolver_dependencies: True
 install_tool_dependencies: False
@@ -35,16 +35,6 @@ tools:
     tool_shed_url: https://toolshed.g2.bx.psu.edu
     revisions:
       - 38b6d12edc68
-  - name: htseq_count
-    owner: lparsons
-    tool_panel_section_label: "RNASeq"
-    tool_shed_url: https://toolshed.g2.bx.psu.edu
-    revisions:
-      - 916cb26bd9d3
-  - name: edger  
-    owner: iuc
-    tool_panel_section_label: "RNASeq"
-    tool_shed_url: https://toolshed.g2.bx.psu.edu
   - name: ggplot2_heatmap2  
     owner: iuc
     tool_panel_section_label: "RNASeq"
