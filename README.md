@@ -30,7 +30,7 @@ Edit the  tools_rnaseq.yml file and the homepage welcome.html.
 3- Build the docker image from the Dockerfile
 
 ```
-sudo docker build -t galaxy_unal:latest .
+sudo docker build --no-cache -t galaxy_unal:latest .
 ```
 
 4- Run the container
