@@ -11,7 +11,7 @@ This was helped by this [Tutorial](https://depot.galaxyproject.org/hub/attachmen
 ## Run the Galaxy docker container
 
 ```
-sudo docker run -p 8080:80 dereeper/galaxy_unal:latest
+sudo docker run -p 8080:80 dereeper/galaxy-unal:latest
 ```
 
 ## Test it locally and modify the container with additional flavors
@@ -30,13 +30,13 @@ Edit the  tools_rnaseq.yml file and the homepage welcome.html.
 3- Build the docker image from the Dockerfile
 
 ```
-sudo docker build --no-cache -t galaxy_unal:latest .
+sudo docker build --no-cache -t galaxy-unal:latest .
 ```
 
 4- Run the container
 
 ```
-sudo docker run -p 8080:80 galaxy_unal
+sudo docker run -p 8080:80 galaxy-unal
 ```
 
 The Galaxy instance is then accessible to this URL: http://localhost:8080
