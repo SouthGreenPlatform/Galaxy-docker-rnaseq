@@ -41,6 +41,8 @@ sudo docker run -p 8080:80 galaxy-unal
 
 The Galaxy instance is then accessible to this URL: http://localhost:8080
 
+<img src="screenshot_galaxy_unal.PNG" align="center" width="60%" style="display: block; margin: auto;"/>
+
 
 5- Once you are satisfied, stop the local container and publish it into Docker Hub
 
@@ -63,8 +65,6 @@ sudo docker push <login>/<repository_name>:latest
 ```
 sudo docker run -p 8080:80 <login>/<repository_name>:latest
 ```
-
-<img src="screenshot_galaxy_unal.PNG" align="center" width="40%" style="display: block; margin: auto;"/>
 
 ## Authors
 
