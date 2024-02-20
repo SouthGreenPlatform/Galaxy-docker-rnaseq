@@ -64,6 +64,8 @@ sudo docker push <login>/<repository_name>:latest
 sudo docker run -p 8080:80 <login>/<repository_name>:latest
 ```
 
+![screenshot](screenshot_galaxy_unal.PNG)
+
 ## Authors
 
 * Alexis Dereeper (IRD)
